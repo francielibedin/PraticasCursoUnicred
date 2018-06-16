@@ -18,7 +18,7 @@ public class ClienteA1 {
 //		ContaCorrenteA1 contaCorrente = new ContaCorrenteA1(new BigDecimal(0));
 //		ou 
 		ContaCorrenteA1 contaCorrente = new ContaCorrenteA1(BigDecimal.ZERO);
-//		intaivar o cliente para testar a opção cliente inativo
+//		inativar o cliente para testar a opção cliente inativo
 		contaCorrente.getCliente().inativar();
 		
 	
